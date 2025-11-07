@@ -1,7 +1,7 @@
 #  .\venv\Scripts\activate
 import streamlit as st
 import cohere
-# co = cohere.Client('lCfJvB4eP3XPXwx5RJ9QkBWGU8xSc4rOHJfftuPm')
+# co = cohere.Client('[REDACTED_BY_KEYGUARDIAN]')
 # Function to validate the Cohere API key
 def validate_cohere_key(api_key):
     try:
